@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+header {
+    padding: 10px 0;
+    background: linear-gradient(90deg, #db3747 0%, #d62d61 25%, #81005e 50%, #5c457e 75%, #1c537f 100%);
+}
+
+header nav ul,
+header nav li,header nav i {
+    margin: 0px;
+    padding-right: 20px;
+}
+
+header nav ul li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+   
+}
+
+header nav ul li ul {
+    display: none;
+    position: absolute;
+}
+
+header nav ul li:hover ul {
+    display: block;
+}
+
+nav a {
+    list-style-type: none;
+    color: white;
+}
+
+.container {
+    background-image: url(../img/media-distancia-nec.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.containt-60 {
+    padding: 60px;
+}
+
+img[src="img/banner-abonos-cast-23.jpeg"]{
+    border-radius: 0px 10px 10px 0px;}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.py-60{
+    padding: 60px 0;
+}
+.px-60{
+    padding: 0 60px;
+}
+
+.p-50 {
+    padding: 50px;
+}
+.p-30 {
+    padding: 30px;
+}
+
+.br-10{
+    border-radius: 10px 10px 10px 10px;;
+}
+
+.txt-white{
+    color: white;
+}
+
+.txt
+
+button{
+    background: linear-gradient(90deg, #db3747 0%, #d62d61 25%, #81005e 50%, #5c457e 75%, #1c537f 100%);
+    font-size: 20px;
+    border: none;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+}
+.shadow{
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.5);
+}
+
+.col-3 {
+    width: 32%;
+    margin-bottom: 2%;
+    position: relative;
+}
+
+.col-3 a{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.col-3 h2{
+    padding-bottom: 30px;
+}
+.col-3 img{
+    border-radius: 10px 10px 0px 0px;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+footer{
+    background-color: #dcdcdc;
+}
+
+footer ul,
+footer li {
+    margin: 0px;
+    padding: 0 20px;
+    color: black;
+}
+
+footer ul li {
+    float: left;
+    list-style-type: none;
+    position: relative;
+}
+
+footer ul li ul {
+    display: none;
+    position: absolute;
+}
+
+footer ul li:hover ul {
+    display: block;
+}
+
+
+ a {
+    list-style-type: none;
+}
+
+
